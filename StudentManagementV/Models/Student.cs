@@ -13,7 +13,7 @@ namespace StudentManagement.Models
     {
 
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)] public string Id { get; set; } = String.Empty;
+         public string Id { get; set; } = String.Empty;
 
         [BsonElement("name")] public string Name { get; set; } = String.Empty;
 
